@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Did You Know? Challenging Misconceptions</title>
+  <meta name="description" content="Interactive flip cards and a quiz that challenge stereotypes and explain systemic, colonial roots of low income and quality-of-life gaps." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header>
+  <div class="container nav">
+    <div class="brand">
+      <div class="mark" aria-hidden="true"></div>
+      <div class="title">
+        <strong>Income & Quality of Life</strong>
+        <span>Learning with respect • Canada</span>
+      </div>
+    </div>
+    <nav class="navlinks" aria-label="Primary navigation">
+      <a href="index.html">Home</a>
+      <a href="issue.html">The Issue</a>
+      <a href="impacts.html">Impacts</a>
+      <a href="did-you-know.html">Did You Know?</a>
+      <a href="campaign.html">Campaign</a>
+      <a href="action.html">Take Action</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <div class="container">
+    <section class="card pad">
+      <div class="kicker"><span class="dot" aria-hidden="true"></span><span>Did You Know?</span></div>
+      <h1>Surprising facts that challenge common myths</h1>
+      <p class="lead">
+        Flip the cards. Then try the quiz. The goal is reflection—understanding that low income is systemic, not a personal flaw.
+      </p>
+
+      <div class="hr"></div>
+
+      <h2>Flip cards (tap to reveal)</h2>
+      <div class="flipgrid" aria-label="Flip cards">
+        <div class="flip">
+          <button type="button" aria-expanded="false" aria-label="Flip card: Low income rates">
+            <div class="flip-inner">
+              <div class="face front">
+                <h3>Did you know…</h3>
+                <p><strong>Nearly 1 in 5</strong> Indigenous people lived in a low-income household in 2021.</p>
+                <p class="small">Tap to reveal why this matters.</p>
+                <p class="cta">↺ Flip</p>
+              </div>
+              <div class="face back">
+                <h3>Why it matters</h3>
+                <p>
+                  Low income limits choices: safe housing, transport to care, stable internet, and healthy food.
+                  When these are limited by systems, quality of life drops.
+                </p>
+                <p class="small">Source: Statistics Canada (2021 Census).</p>
+                <p class="cta">↺ Flip back</p>
+              </div>
+            </div>
+          </button>
+        </div>
+
+        <div class="flip">
+          <button type="button" aria-expanded="false" aria-label="Flip card: Housing crowding">
+            <div class="flip-inner">
+              <div class="face front">
+                <h3>Did you know…</h3>
+                <p>Housing crowding is about <strong>double</strong> for Indigenous people compared with non-Indigenous people (2021).</p>
+                <p class="small">Tap to reveal the connection to income.</p>
+                <p class="cta">↺ Flip</p>
+              </div>
+              <div class="face back">
+                <h3>Income → housing options</h3>
+                <p>
+                  When incomes are lower and housing supply is limited, moving or expanding a home becomes harder.
+                  Crowding is a symptom of constrained options, not “preference.”
+                </p>
+                <p class="small">Source: Statistics Canada (2021 Census).</p>
+                <p class="cta">↺ Flip back</p>
+              </div>
+            </div>
+          </button>
+        </div>
+
+        <div class="flip">
+          <button type="button" aria-expanded="false" aria-label="Flip card: Education access">
+            <div class="flip-inner">
+              <div class="face front">
+                <h3>Did you know…</h3>
+                <p>Education gaps reflect <strong>access barriers</strong> (transport, stable housing, internet, and school availability).</p>
+                <p class="small">Tap for context.</p>
+                <p class="cta">↺ Flip</p>
+              </div>
+              <div class="face back">
+                <h3>Access barriers matter</h3>
+                <p>
+                  For some students, accessing school can require leaving home and community—an added cost and challenge.
+                  That’s a system issue, not “motivation.”
+                </p>
+                <p class="small">Source: Statistics Canada (education outcomes research).</p>
+                <p class="cta">↺ Flip back</p>
+              </div>
+            </div>
+          </button>
+        </div>
+      </div>
+
+      <div class="hr"></div>
+
+      <h2>Quick quiz (choose one answer per question)</h2>
+      <form class="quiz" data-quiz aria-label="Did you know quiz">
+        <fieldset class="card pad soft q">
+          <legend>1) Which statement best explains low income in many First Nations communities?</legend>
+          <div class="choices">
+            <label class="choice">
+              <input type="radio" name="q1" />
+              <span>It’s mostly caused by individual choices.</span>
+            </label>
+            <label class="choice">
+              <input type="radio" name="q1" data-correct="true" />
+              <span>It’s shaped by systemic barriers rooted in colonial policy and ongoing inequities.</span>
+            </label>
+            <label class="choice">
+              <input type="radio" name="q1" />
+              <span>It’s mainly about people not wanting to work.</span>
+            </label>
+          </div>
+          <div class="feedback">
+            <strong>Reflection:</strong> Systemic barriers (policy, underinvestment, access, discrimination) shape outcomes across generations. This is not about blaming individuals.
+          </div>
+        </fieldset>
+
+        <fieldset class="card pad soft q">
+          <legend>2) In 2021, what share of Indigenous people lived in low-income households?</legend>
+          <div class="choices">
+            <label class="choice"><input type="radio" name="q2" /> <span>About 5%</span></label>
+            <label class="choice"><input type="radio" name="q2" data-correct="true" /> <span>About 18.8%</span></label>
+            <label class="choice"><input type="radio" name="q2" /> <span>About 50%</span></label>
+          </div>
+          <div class="feedback">
+            <strong>Answer:</strong> About 18.8% (Statistics Canada, 2021 Census).
+          </div>
+        </fieldset>
+
+        <fieldset class="card pad soft q">
+          <legend>3) Which is an example of how income affects education?</legend>
+          <div class="choices">
+            <label class="choice"><input type="radio" name="q3" /> <span>Income doesn’t affect education if someone “tries hard.”</span></label>
+            <label class="choice"><input type="radio" name="q3" data-correct="true" /> <span>Income can affect stable housing, internet, supplies, and transportation—conditions needed to learn.</span></label>
+            <label class="choice"><input type="radio" name="q3" /> <span>Education differences are purely cultural.</span></label>
+          </div>
+          <div class="feedback">
+            <strong>Reflection:</strong> Learning needs conditions—safe space, access, stability. Low income restricts those conditions.
+          </div>
+        </fieldset>
+
+        <fieldset class="card pad soft q">
+          <legend>4) True or false: Food insecurity only happens to people below the poverty line.</legend>
+          <div class="choices">
+            <label class="choice"><input type="radio" name="q4" /> <span>True</span></label>
+            <label class="choice"><input type="radio" name="q4" data-correct="true" /> <span>False</span></label>
+          </div>
+          <div class="feedback">
+            <strong>Answer:</strong> False. Food insecurity can occur above the poverty line due to high costs and constrained budgets.
+          </div>
+        </fieldset>
+
+        <div class="btnrow">
+          <button class="btn primary" type="button" data-quiz-reset>Reset quiz</button>
+          <a class="btn" href="campaign.html">See the awareness campaign</a>
+          <button class="btn small" type="button" data-share>Share</button>
+        </div>
+      </form>
+    </section>
+  </div>
+</main>
+
+<footer>
+  <div class="container footergrid">
+    <div>
+      <strong>Next step</strong>
+      <p>Move from “surprised” to “informed”—then to respectful action.</p>
+    </div>
+    <div>
+      <a class="btn small" href="action.html">Take Action</a>
+      <button class="btn small" type="button" data-share>Share</button>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
